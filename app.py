@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load the model and scaler
-svm_model = joblib.load('model/svm_model.pkl')
-scaler = joblib.load('model/scaler.pkl')
+svm_model = joblib.load('svm_model (1).pkl')
+scaler = joblib.load('scaler (2).pkl')
 
 # Initialize a list to store the history of predictions
 if 'prediction_history' not in st.session_state:
